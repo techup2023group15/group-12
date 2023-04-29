@@ -16,13 +16,13 @@
 			<li>
 			  <a href="gallery.html">Galeria</a>
 		  	</li>
-			<li>
-			  <a href="about.html">Rreth nesh</a>
+			<li id="li-tag">
+			  <a id="btn" href="about.html">Rreth nesh</a>
 		  	</li>
 			<li>
 			  <a href="contact.html">Kontakt</a>
 		  	</li>
-		</ul>
+		</ul id="ul-tag">
 		<h1>Galeria ime</h1>
 		<p>
             <h2>Urime Festaa</h2>
@@ -33,17 +33,19 @@
 	  	<table>
 			<caption>Informatat e personit</caption>
 			<tr>
-				<th>Emri</th>
+				<th th hover:>Emri</th>
 				<th>Mbiemri</th>
 				<th>Mosha</th>
 				<th>Gjinia</th>
 			</tr>
-			<tr>
+			<tr tr:nth-child(odd){
+				
+			}>
 				<td>Hasan</td>
 				<td>Hiseni</td>
 				<td>17</td>
 				<td>M</td>
-			</tr>
+			</tr tr:nth-child(even){>
 		  	<tr>
 				<td>Fisnike</td>
 				<td>Hasani</td>
